@@ -30,5 +30,11 @@ public class Main {
         else if (age >= 19 && age <= 23)
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в университет");
         else System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить на работу");
+
+        if (age < 5)
+            System.out.println("Нельзя кататься!");
+        else if (age < 14)
+            System.out.println("Можно кататься в сопровождении взрослого");
+        else System.out.println("Можно кататься");
     }
 }
