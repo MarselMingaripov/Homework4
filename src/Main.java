@@ -36,5 +36,15 @@ public class Main {
         else if (age < 14)
             System.out.println("Можно кататься в сопровождении взрослого");
         else System.out.println("Можно кататься");
+
+        int one = 1;
+        int two = 2;
+        int three = 1;
+        int max = one;
+        if (two > max){
+            if (three > max)
+            max = three;
+            else max = two;}
+        System.out.println(max);
     }
 }
