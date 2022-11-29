@@ -13,6 +13,13 @@ public class Main {
         if (age >= 24)
             System.out.println("Человек окончил университет и ему пора искать первую работу");
 
-
+        int totalCapasity = 102;
+        int seatCapasity = 60;
+        int countOfPassengers = 78;
+        if (countOfPassengers > totalCapasity)
+            System.out.println("Мест нет");
+        else if (countOfPassengers > seatCapasity)
+            System.out.println("Есть стоячие места");
+        else System.out.println("Есть сидячие места");
     }
 }
